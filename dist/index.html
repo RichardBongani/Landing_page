@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@200&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="myProjects/webProject/icofont/css/icofont.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/simple-lightbox.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Watch Firm</title>
@@ -17,7 +16,7 @@
                 <h1 class="logo">Classics</h1>
             <ul class="nav">
                 <li><a href="#home">Home</a></li>
-                <li><a href="http://www.bonganiphala.com" target="_blank">My Portfolio</a></li>
+                <li><a href="http://www.bonganiphala.com" target="_blank">Portfolio</a></li>
             </ul>
             </div>
         </nav>
@@ -59,11 +58,59 @@
             </div>
         </section>
 
+        <!-- Footer Section -->
+        <footer class="section-footer">
+            <div class="container">
+                <div>
+                    <h2>@Classics </h2>
+                    <a href="https://www.linkedin.com/in/bongani-richard-phala-078428113/" target="_blank">
+                        <i class="fa fa-linkedin fa-2x"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/bongani-richard-phala-078428113/">
+                        <i class="fa fa-twitter fa-2x"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/bongani-richard-phala-078428113/">
+                        <i class="fa fa-facebook fa-2x"></i>
+                    </a>
+                </div>
+                <div>
+                    <h3>Company Info</h3>
+                    <ul>
+                        <li><a href="#">All Products</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Blog Posts</h3>
+                    <ul>
+                        <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                        <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                        <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                        <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Subscribe</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <form name="email-form" method="post" data-netlify="true">
+                        <div class="email-form">
+                            <span class="form-control-wrap">
+                                <input type="email" name="email" id="email" size="30" class="form-control" placeholder="Enter email...">
+                            </span>
+                            <button type="submit" class="control-form submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </footer>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="js/simple-lightbox.min.js"></script>
     <script>
         $(document).ready(function(){
-            var gallery = $('.gallery a').simpleLightbox();
+            const $gallery = $('.gallery a').simpleLightbox();
         });
     </script>
 </body>
